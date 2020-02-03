@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./bin/start",
+    "start": "node ./bin/start"
+  },
+  "author": "ztt",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "mysql": "^2.15.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
